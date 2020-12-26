@@ -1,4 +1,3 @@
-
 from discord.ext import commands
 from nasapy import Nasa
 import numpy as np

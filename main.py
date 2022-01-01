@@ -36,7 +36,7 @@ async def version(context):
 async def version(context):
     # random image from the mars rover
 
-    sol = np.random.randint(0, 2869) + 1
+    sol = np.random.randint(0, 3223) + 1
 # generates the random number that is used to pick a mars day(sol)
     rover_cam = nasa.mars_rover(sol=sol)
 # asks the API for the data useing the sol date that was randomly picked
